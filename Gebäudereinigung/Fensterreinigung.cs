@@ -10,7 +10,7 @@ namespace Gebäudereinigung
     {
         private int Anzahl_Fenster;
 
-        public Fensterreinigung(int Anzahl_Fenster,double Kosten, string Kunden, DateTime Zeit, DateTime Datum, string Mitarbeiter, string Putzmaterial) : base(Kosten,Kunden,Zeit,Datum,Mitarbeiter,Putzmaterial)
+        public Fensterreinigung(int Anzahl_Fenster,double Kosten, string Kunden, DateTime Datum, string Mitarbeiter, string Putzmaterial) : base(Kosten,Kunden,Datum,Mitarbeiter,Putzmaterial)
         {
             this.Anzahl_Fenster = Anzahl_Fenster;
         }

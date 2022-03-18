@@ -8,12 +8,20 @@ namespace Gebäudereinigung
 {
 
 
-   public class Bodenreinigung : Reinigung
+    class Bodenreinigung : Reinigung
     {
-        public Bodenreinigung(int Kosten , string Kunden , DateTime Zeit , DateTime Datum , string Mitarbeiter , string Putzmaterial ) : base(Kosten, Kunden, Zeit, Datum, Mitarbeiter, Putzmaterial);
+        private int Anzahl_Quadratmeter;
+
+        public Bodenreinigung(int Anzahl_Quadratmeter,double Kosten, string Kunden, DateTime Datum, string Mitarbeiter, string Putzmaterial) : base(Kosten, Kunden, Datum, Mitarbeiter, Putzmaterial)
+        {
+            this.Anzahl_Quadratmeter = Anzahl_Quadratmeter; 
+        }
         
-       
-        int Anzahl_Quadratmeter;
+       public int get_Anzahl_Quadratmeter()
+        {
+            return Anzahl_Quadratmeter;
+        }
+     
       
-    }
+    } 
 }

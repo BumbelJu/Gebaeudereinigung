@@ -119,6 +119,7 @@
             this.tb_fensteranzahl.TabIndex = 3;
             this.tb_fensteranzahl.Texts = "";
             this.tb_fensteranzahl.UnderlinedStyle = true;
+            this.tb_fensteranzahl._TextChanged += new System.EventHandler(this.tb_fensteranzahl__TextChanged);
             // 
             // tb_bodengröße
             // 
@@ -141,6 +142,7 @@
             this.tb_bodengröße.TabIndex = 4;
             this.tb_bodengröße.Texts = "";
             this.tb_bodengröße.UnderlinedStyle = true;
+            this.tb_bodengröße._TextChanged += new System.EventHandler(this.tb_bodengröße__TextChanged);
             // 
             // label1
             // 
@@ -173,6 +175,7 @@
             this.btn_kunde.TabIndex = 7;
             this.btn_kunde.Texts = "";
             this.btn_kunde.UnderlinedStyle = true;
+            this.btn_kunde._TextChanged += new System.EventHandler(this.btn_kunde__TextChanged);
             // 
             // label2
             // 
@@ -191,12 +194,13 @@
             this.dp_datum.BorderSize = 3;
             this.dp_datum.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dp_datum.Location = new System.Drawing.Point(422, 303);
-            this.dp_datum.MinimumSize = new System.Drawing.Size(0, 35);
+            this.dp_datum.MinimumSize = new System.Drawing.Size(4, 35);
             this.dp_datum.Name = "dp_datum";
             this.dp_datum.Size = new System.Drawing.Size(518, 38);
             this.dp_datum.SkinColor = System.Drawing.Color.Teal;
             this.dp_datum.TabIndex = 9;
             this.dp_datum.TextColor = System.Drawing.Color.White;
+            this.dp_datum.ValueChanged += new System.EventHandler(this.dp_datum_ValueChanged);
             // 
             // panel1
             // 

@@ -11,12 +11,12 @@ namespace Gebäudereinigung
 
         private double Kosten;
         private string Kunden;
-        private string Zeit;
-        private string Datum;
+        private DateTime Zeit;
+        private DateTime Datum;
         private string Mitarbeiter;
         private string Putzmaterial;
 
-        public Reinigung(double Kosten,string Kunden,string Zeit,string Datum,string Mitarbeiter,string Putzmaterial)
+        public Reinigung(double Kosten,string Kunden,DateTime Zeit,DateTime Datum,string Mitarbeiter,string Putzmaterial)
         {
             this.Kosten = Kosten;
             this.Kunden = Kunden;
@@ -36,11 +36,11 @@ namespace Gebäudereinigung
             return Kunden; 
 
         }
-        public string get_Zeit()
+        public DateTime get_Zeit()
         {
             return Zeit; 
         }
-        public string get_Datum()
+        public DateTime get_Datum()
         {
             return Datum; 
         }

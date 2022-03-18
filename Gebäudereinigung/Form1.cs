@@ -12,9 +12,67 @@ namespace Gebäudereinigung
 {
     public partial class Form1 : Form
     {
+        string Kunde;
+        int FensterAnzahl;
+        int Bodengröße;
+        DateTime Datum;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btn_kunde__TextChanged(object sender, EventArgs e)
+        {
+            Kunde = btn_kunde.Texts;
+            MessageBox.Show(Kunde);
+        }
+
+        private void tb_fensteranzahl__TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                FensterAnzahl = int.Parse(tb_fensteranzahl.Texts);
+            }
+            catch (Exception)
+            {
+                if (tb_fensteranzahl.Texts != "")
+                {
+                    //tb_bodengröße.Texts.Substring(0, tb_bodengröße.Texts.Length - 1);
+                    MessageBox.Show("Es sind nur Zahlen erlaubt!");
+                }   
+            }
+            //MessageBox.Show(FensterAnzahl.ToString());
+        }
+
+        private void tb_bodengröße__TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                Bodengröße = int.Parse(tb_bodengröße.Texts);
+            }
+            catch (Exception)
+            {
+                if (tb_fensteranzahl.Texts != "")
+                {
+                    //tb_bodengröße.Texts = tb_bodengröße.Texts.Remove(tb_bodengröße.Texts.Length - 1, 1);
+                    MessageBox.Show("Es sind nur Zahlen erlaubt!");
+                }
+            }
+            //MessageBox.Show(Bodengröße.ToString());
+        }
+
+        private void dp_datum_ValueChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                Datum = Convert.ToDateTime(dp_datum.Value);
+            }
+            catch (Exception)
+            {
+                dp_datum.Value = DateTime.Today;
+            }
+            //MessageBox.Show(Datum.ToString());
         }
     }
 }

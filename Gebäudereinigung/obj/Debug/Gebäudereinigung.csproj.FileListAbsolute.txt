@@ -1,5 +1,12 @@
-C:\Users\koste\OneDrive\Desktop\Schule\SWR Mittelstufe\Projekte\Erik hat nen kleinen\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.AssemblyReference.cache
-C:\Users\koste\OneDrive\Desktop\Schule\SWR Mittelstufe\Projekte\Erik hat nen kleinen\Gebäudereinigung\obj\Debug\Gebäudereinigung.Form1.resources
-C:\Users\koste\OneDrive\Desktop\Schule\SWR Mittelstufe\Projekte\Erik hat nen kleinen\Gebäudereinigung\obj\Debug\Gebäudereinigung.Properties.Resources.resources
-C:\Users\koste\OneDrive\Desktop\Schule\SWR Mittelstufe\Projekte\Erik hat nen kleinen\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.GenerateResource.cache
-C:\Users\koste\OneDrive\Desktop\Schule\SWR Mittelstufe\Projekte\Erik hat nen kleinen\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.CoreCompileInputs.cache
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\bin\Debug\Gebäudereinigung.exe.config
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\bin\Debug\Gebäudereinigung.exe
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\bin\Debug\Gebäudereinigung.pdb
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\bin\Debug\CustomControls.dll
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.csprojAssemblyReference.cache
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.Form1.resources
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.Properties.Resources.resources
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.GenerateResource.cache
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.CoreCompileInputs.cache
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.CopyComplete
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.exe
+C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.pdb

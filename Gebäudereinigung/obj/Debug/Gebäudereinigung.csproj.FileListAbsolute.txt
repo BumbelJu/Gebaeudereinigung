@@ -1,7 +1,6 @@
 C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\bin\Debug\Gebäudereinigung.exe.config
 C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\bin\Debug\Gebäudereinigung.exe
 C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\bin\Debug\Gebäudereinigung.pdb
-C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\bin\Debug\CustomControls.dll
 C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.csprojAssemblyReference.cache
 C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.Form1.resources
 C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.Properties.Resources.resources

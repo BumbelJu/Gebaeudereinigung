@@ -49,6 +49,10 @@ namespace Gebäudereinigung
         {
             return Putzmaterial;
         }
+        public virtual string ausgabe()
+        {
+            return "Kosten = " + Kosten.ToString() + "€ \n Kunde = " + Kunden + " \n Datum = " + Datum + "\n Mitarbieter = " + Mitarbeiter + "\n Putmaterial = " + Putzmaterial;
+        }
 
     }
 }

@@ -53,7 +53,7 @@
             this.btn_fenster.Font = new System.Drawing.Font("Microsoft YaHei UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_fenster.ForeColor = System.Drawing.Color.White;
             this.btn_fenster.Location = new System.Drawing.Point(62, 304);
-            this.btn_fenster.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_fenster.Margin = new System.Windows.Forms.Padding(2);
             this.btn_fenster.Name = "btn_fenster";
             this.btn_fenster.Size = new System.Drawing.Size(236, 74);
             this.btn_fenster.TabIndex = 0;
@@ -74,13 +74,14 @@
             this.btn_gesamt.Font = new System.Drawing.Font("Microsoft YaHei UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_gesamt.ForeColor = System.Drawing.Color.White;
             this.btn_gesamt.Location = new System.Drawing.Point(325, 304);
-            this.btn_gesamt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_gesamt.Margin = new System.Windows.Forms.Padding(2);
             this.btn_gesamt.Name = "btn_gesamt";
             this.btn_gesamt.Size = new System.Drawing.Size(236, 74);
             this.btn_gesamt.TabIndex = 1;
             this.btn_gesamt.Text = "Gesamtreinigung";
             this.btn_gesamt.TextColor = System.Drawing.Color.White;
             this.btn_gesamt.UseVisualStyleBackColor = false;
+            this.btn_gesamt.Click += new System.EventHandler(this.btn_gesamt_Click);
             // 
             // rjButton2
             // 
@@ -94,13 +95,14 @@
             this.rjButton2.Font = new System.Drawing.Font("Microsoft YaHei UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjButton2.ForeColor = System.Drawing.Color.White;
             this.rjButton2.Location = new System.Drawing.Point(581, 304);
-            this.rjButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rjButton2.Margin = new System.Windows.Forms.Padding(2);
             this.rjButton2.Name = "rjButton2";
             this.rjButton2.Size = new System.Drawing.Size(236, 74);
             this.rjButton2.TabIndex = 2;
             this.rjButton2.Text = "Bodenreinigung";
             this.rjButton2.TextColor = System.Drawing.Color.White;
             this.rjButton2.UseVisualStyleBackColor = false;
+            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click);
             // 
             // tb_fensteranzahl
             // 
@@ -112,6 +114,7 @@
             this.tb_fensteranzahl.Font = new System.Drawing.Font("Microsoft YaHei UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_fensteranzahl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tb_fensteranzahl.Location = new System.Drawing.Point(62, 248);
+            this.tb_fensteranzahl.Margin = new System.Windows.Forms.Padding(4);
             this.tb_fensteranzahl.Multiline = false;
             this.tb_fensteranzahl.Name = "tb_fensteranzahl";
             this.tb_fensteranzahl.Padding = new System.Windows.Forms.Padding(7, 5, 7, 5);
@@ -134,6 +137,7 @@
             this.tb_bodengröße.Font = new System.Drawing.Font("Microsoft YaHei UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_bodengröße.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tb_bodengröße.Location = new System.Drawing.Point(467, 248);
+            this.tb_bodengröße.Margin = new System.Windows.Forms.Padding(4);
             this.tb_bodengröße.Multiline = false;
             this.tb_bodengröße.Name = "tb_bodengröße";
             this.tb_bodengröße.Padding = new System.Windows.Forms.Padding(7, 5, 7, 5);
@@ -167,6 +171,7 @@
             this.btn_kunde.Font = new System.Drawing.Font("Microsoft YaHei UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_kunde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_kunde.Location = new System.Drawing.Point(281, 137);
+            this.btn_kunde.Margin = new System.Windows.Forms.Padding(4);
             this.btn_kunde.Multiline = false;
             this.btn_kunde.Name = "btn_kunde";
             this.btn_kunde.Padding = new System.Windows.Forms.Padding(7, 5, 7, 5);
@@ -197,7 +202,7 @@
             this.dp_datum.BorderSize = 3;
             this.dp_datum.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dp_datum.Location = new System.Drawing.Point(281, 197);
-            this.dp_datum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dp_datum.Margin = new System.Windows.Forms.Padding(2);
             this.dp_datum.MinimumSize = new System.Drawing.Size(4, 35);
             this.dp_datum.Name = "dp_datum";
             this.dp_datum.Size = new System.Drawing.Size(347, 35);
@@ -212,7 +217,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(883, 92);
             this.panel1.TabIndex = 10;
@@ -232,7 +237,7 @@
             this.Controls.Add(this.rjButton2);
             this.Controls.Add(this.btn_gesamt);
             this.Controls.Add(this.btn_fenster);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);

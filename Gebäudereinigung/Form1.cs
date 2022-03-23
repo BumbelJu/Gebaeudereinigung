@@ -25,7 +25,7 @@ namespace Gebäudereinigung
         private void btn_kunde__TextChanged(object sender, EventArgs e)
         {
             Kunde = btn_kunde.Texts;
-            MessageBox.Show(Kunde);
+        
         }
 
         private void tb_fensteranzahl__TextChanged(object sender, EventArgs e)
@@ -73,6 +73,27 @@ namespace Gebäudereinigung
                 dp_datum.Value = DateTime.Today;
             }
             //MessageBox.Show(Datum.ToString());
+        }
+
+        private void btn_fenster_Click(object sender, EventArgs e)
+        {
+            double Kosten = FensterAnzahl * 20;
+            Reinigung Fenster = new Fensterreinigung(FensterAnzahl, Kosten, Kunde, Datum, "TEST", "Scheibenreiniger");
+            MessageBox.Show(Fenster.ausgabe() , "Eilmeldung", MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
+
+        private void btn_gesamt_Click(object sender, EventArgs e)
+        {
+            double Kosten = (FensterAnzahl * 20) + (Bodengröße * 20);
+            Reinigung Gesamtreinigung = new KomplettReinigung(Bodengröße, FensterAnzahl, Kosten, Kunde, Datum, "Test", "Scheiben und Bodenreiniger");
+            MessageBox.Show(Gesamtreinigung.ausgabe(), "Eilmeldung", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
+            double Kosten = Bodengröße * 20;
+            Reinigung Boden = new Bodenreinigung(Bodengröße, Kosten, Kunde, Datum, "Test", "Bodenreiniger");
+            MessageBox.Show(Boden.ausgabe(), "Eilmeldung", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

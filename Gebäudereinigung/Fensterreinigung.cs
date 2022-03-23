@@ -19,7 +19,11 @@ namespace Gebäudereinigung
         {
             return Anzahl_Fenster;
         }
-
+        public override string ausgabe()
+        {
+             var ausgabe = base.ausgabe();
+            return ausgabe + "\n" + "Typ= Fensterreinigung" + "\n Anzahl der Fenster " + Anzahl_Fenster;
+        }
 
     }
 }

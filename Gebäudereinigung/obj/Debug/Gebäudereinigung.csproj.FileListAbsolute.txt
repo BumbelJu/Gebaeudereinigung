@@ -9,3 +9,14 @@ C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\De
 C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.CopyComplete
 C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.exe
 C:\Users\ErikB\Desktop\Schule Jahr 2\SWR\Klassenprojekt\Gebäudereinigung\obj\Debug\Gebäudereinigung.pdb
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\bin\Debug\Gebäudereinigung.exe.config
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\bin\Debug\Gebäudereinigung.exe
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\bin\Debug\Gebäudereinigung.pdb
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.AssemblyReference.cache
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\obj\Debug\Gebäudereinigung.Form1.resources
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\obj\Debug\Gebäudereinigung.Properties.Resources.resources
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.GenerateResource.cache
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.CoreCompileInputs.cache
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\obj\Debug\Gebäudereinigung.csproj.CopyComplete
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\obj\Debug\Gebäudereinigung.exe
+C:\Users\justi\source\repos\Gebäudereinigung\Gebaeudereinigung\Gebäudereinigung\obj\Debug\Gebäudereinigung.pdb
